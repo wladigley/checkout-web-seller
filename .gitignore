@@ -1,11 +1,11 @@
 node_modules/
 /back/checkout-web-api/checkout-web-api/obj
 /back/checkout-web-api/.vs/checkout-web-api/v16
-/local/checkout-web-local-api/.vs/checkout-web-local-api/v16
-/local/checkout-web-local-api/checkout-web-local-api/bin/Debug
+/local/checkout-web-local-api/.vs/
+/local/checkout-web-local-api/checkout-web-local-api/bin
 /local/checkout-web-local-api/packages
-/local/checkout-web-local-api/checkout-web-local-api/obj/Debug
-/back/checkout-web-api/checkout-web-api/bin/Debug/netcoreapp3.1
+/local/checkout-web-local-api/checkout-web-local-api/obj
+/back/checkout-web-api/checkout-web-api/bin
 /back/checkout-web-api/.vs/checkout-web-api
 *.dll
 *.pdb

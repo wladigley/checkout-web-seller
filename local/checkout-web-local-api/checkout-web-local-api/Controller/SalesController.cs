@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using checkout_web_local_api.Printer;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Web.Http;
 
@@ -29,6 +30,7 @@ namespace checkout_web_local_api.Controller
         [Route("")]
         public IHttpActionResult defaultget()
         {
+            Generate.createPDF();
             //return new string[] { "Hello", "World" };
             return Json(new { key = "Hello", value = "Default!" });
         }
